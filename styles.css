@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00008b;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-size: Verdana;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 30rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div-check {
+  font-size: 1.5rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.enter-palindrome {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+input {
+  border-radius: 50px;
+  padding: 0.4rem 0.6rem;
+  font-size: 1.4rem;
+  width: 70%;
+}
+
+#check-btn {
+  width: 23%;
+  height: 2.6rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #000038;
+  color: #fff;
+}
+
+.explanation {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #4d4dae;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
