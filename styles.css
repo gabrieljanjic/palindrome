@@ -23,7 +23,9 @@ main {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  max-width: 30rem;
+  width: 100%;
+  max-width: 36rem;
+  padding: 0 3rem;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -73,4 +75,16 @@ input {
   background-color: #4d4dae;
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+@media (max-width: 37rem) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 30rem) {
+  html {
+    font-size: 70%;
+  }
 }
